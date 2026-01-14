@@ -185,7 +185,7 @@ body
   font-family: "DM Serif Text", serif;
   font-weight: 400;
   float: left;
-  margin-left: 200px;
+  margin-left: 100px;
   margin-top:60px;
 }
 .indexintro{
@@ -196,17 +196,18 @@ body
   float:right;
   text-align:right;
   margin-top: 100px;
+  margin-right:50px;
 }
 .indexphoto{
-  height:500px;
-  width:500px;
+  height:480px;
+  width:480px;
   float:right;
-  /*margin-right:150px;
-  margin-top:40px;*/
+  margin-left:20px;
+  margin-top:40px;
 }
 img{
-  height:500px;
-  width:500px;
+  height:480px;
+  width:480px;
 }
 h1{
   font-size: 120px;
