@@ -50,7 +50,6 @@ body
   /* make it look decent enough */
   background: #232323;
   color: #cdcdcd;
-  font-family: "Avenir Next", "Avenir", sans-serif;
 }
 * {
   scroll-behavior: smooth;
@@ -186,24 +185,31 @@ body
   font-family: "DM Serif Text", serif;
   font-weight: 400;
   float: left;
+  margin-left: 100px;
 }
 .indexintro{
   font-family: "League Spartan", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
-  float: right;
+  float:right;
+  margin-right:50px;
+  text-align:right;
 }
 .indexphoto{
   border-radius: 100;
   border-style: dotted;
-  height:50%;
-  width:50%;
+  height:200px;
+  width:200px;
+  float:right;
+  margin-right:200px;
+  margin-top:70px;
 }
 h1{
   font-size: 120px;
   font-family: "DM Serif Text", serif;
   font-weight: 400;
+  line-height:30px;
 }
 p{
   font-family: "League Spartan", sans-serif;
@@ -211,4 +217,7 @@ p{
   font-weight: 200;
   font-style: normal;
   font-size: 48px;
+}
+.welcome{
+  /*margin-left:150px;*/
 }
