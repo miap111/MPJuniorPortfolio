@@ -5,382 +5,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- Update these (from Curator Guide) -->
-  <meta name="description" content="Junior Fall Portfolio for YOUR NAME" />
-  <meta name="keywords" content="portfolio, junior, projects, programming, web development" />
-  <meta name="author" content="YOUR NAME" />
+  <meta name="description" content="Junior Fall Portfolio for Mia Pinto" />
+  <meta name="keywords" content="portfolio, junior, projects, programming, web development, python projects" />
+  <meta name="author" content="Mia Pinto" />
 
-  <title>YOUR NAME | Junior Fall Portfolio</title>
+  <title>Mia Pinto | Junior Fall Portfolio</title>
 
   <!-- Main stylesheet -->
   <link rel="stylesheet" href="style.css" />
 
-  <!-- Optional favicon (put your icon file in the same folder) -->
-  <link rel="icon" type="image/x-icon" href="favicon.png" />
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="jpfavicon.png" />
 
-  <!-- Optional fonts (only keep if your CSS uses them) -->
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
+  
+  <nav role="navigation">
+  <div id="menuToggle">
+    <input type="checkbox" id="menuCheckbox" />
+    <span></span>
+    <span></span>
+    <span></span>
+    <ul id="menu">
+      <li>
+        <a href="#">https://w3schools.com</label>
+        </a>
+      </li>
 
-  <!-- NAVBAR -->
-  <header>
-    <nav class="navbar">
-      <div class="navbar-left">
-        <!-- Replace logo.png with your own image file -->
-        <img src="logo.png" alt="Logo" />
-      </div>
+      <li>
+        <a href="#about">Abouttt
+        </a>
+      </li>
 
-      <ul class="navbar-right">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="cfus.html">CFUs</a></li>
-        <li><a href="labs.html">Labs</a></li>
-        <li><a href="contact.html">Contacts</a></li>
-      </ul>
-      <nav role="navigation">
-    <div id="menuToggle">
-      <!--
-      A fake / hidden checkbox is used as click reciever,
-      so you can use the :checked selector on it.
-      -->
-      <input type="checkbox" id="menuCheckbox" />
-      
-      <!--
-      Some spans to act as a hamburger.
-      
-      They are acting like a real hamburger,
-      not that McDonalds stuff.
-      -->
-      <span></span>
-      <span></span>
-      <span></span>
-      
-      <!--
-      Too bad the menu has to be inside of the button
-      but hey, it's pure CSS magic.
-      -->
-      <ul id="menu">
-        <!-- 
-        We can use a label here to close upon click (when doing same page navigation), this
-        does require a slight bit of JS.
-        -->
-        <li>
-          <a href="#">
-            <label for="menuCheckbox" onclick="this.parentNode.click();">Home</label>
-          </a>
-        </li>
-        <li>
-          <a href="#about">
-            <label for="menuCheckbox" onclick="this.parentNode.click();">About</label>
-          </a>
-        </li>
-        
-        <!-- These just close the menu -->
-        <li><label for="menuCheckbox"><a>Info</a></label></li>
-        <li><label for="menuCheckbox"><a>Contact</a></label></li>
-        
-        <!-- Or just use regular URLs -->
-        <li>
-          <a href="https://erikterwan.com/" target="_blank">Show me more</a>
-        </li>
-      </ul>
-    </div>
+      <li><a href="https://erikterwan.com/" target="_blank">HEllo</a></li>
+
+      <li>
+        <a href="https://erikterwan.com/" target="_blank">Show me more</a>
+      </li>
+      <li>
+        <a href="https://w3schools.com/" target="_blank">W3 Schools</a>
+      </li>
+    </ul>
+  </div>
   </nav>
-  <main>
-    <h1>Pure CSS Hamburger Menu</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis massa eros, commodo in auctor eget, condimentum et velit. Curabitur sit amet rhoncus augue. Sed sed turpis at tortor hendrerit feugiat eget et enim. Curabitur velit neque, pretium eu lacinia et, euismod et diam. Nunc eget ullamcorper lectus. Ut feugiat arcu id leo elementum, eu tincidunt ex imperdiet. Etiam at volutpat enim. Donec porta velit a scelerisque congue. Vestibulum eu sem mauris. Morbi quis lacinia purus, vitae dictum mauris. Nunc elementum eget dolor at finibus. Nullam at iaculis est.</p>
-  
-    <p>Curabitur tristique venenatis enim id ornare. Maecenas ultrices ex non orci dapibus, vel pharetra nisl imperdiet. Praesent venenatis odio ac tempus pretium. Curabitur interdum purus vel mi ornare, non eleifend ligula consectetur. Vestibulum lacinia nunc leo, fermentum interdum purus commodo ut. Sed auctor efficitur ullamcorper. Aenean nec neque dui. Aenean tincidunt ligula at sodales porta. Nam ultrices nulla dui, sed imperdiet nunc sollicitudin nec.</p>
-      
-    <p>Aliquam hendrerit efficitur arcu ut suscipit. Etiam vel lacus at enim malesuada vulputate a at nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc interdum mollis ultrices. In eget commodo justo, in vulputate eros. In et congue enim. Etiam eleifend dolor ac lectus faucibus aliquet. Vivamus luctus libero elit, id porttitor neque scelerisque id.</p>
-  
-    <p>Cras libero dolor, malesuada non porttitor at, viverra at ligula. Suspendisse eget dapibus nisl, at vulputate nisi. Vestibulum purus nisi, viverra vel tortor eget, imperdiet facilisis lectus. Maecenas vestibulum elit sit amet nibh ultricies hendrerit. Mauris convallis, purus eu pharetra viverra, lectus lacus accumsan diam, euismod sollicitudin libero eros et quam. Praesent posuere ante et erat commodo, quis rutrum odio elementum. Aliquam tempus vestibulum mi ut sollicitudin.</p>
-    
-    <h2 id="about">About</h2>
-    <p>Pellentesque imperdiet, massa at ultricies venenatis, eros lorem ultricies felis, in dapibus est magna ut augue. Cras efficitur mi at turpis placerat pulvinar. Sed bibendum dapibus nibh vitae vulputate. In eleifend orci vitae augue tincidunt, in posuere erat gravida. Vivamus in tortor feugiat, auctor mi sed, vehicula risus. Nulla facilisi. Phasellus mi dui, scelerisque ac nulla eu, viverra vehicula velit.</p>
-  
-    <p>Cras libero dolor, malesuada non porttitor at, viverra at ligula. Suspendisse eget dapibus nisl, at vulputate nisi. Vestibulum purus nisi, viverra vel tortor eget, imperdiet facilisis lectus. Maecenas vestibulum elit sit amet nibh ultricies hendrerit. Mauris convallis, purus eu pharetra viverra, lectus lacus accumsan diam, euismod sollicitudin libero eros et quam. Praesent posuere ante et erat commodo, quis rutrum odio elementum. Aliquam tempus vestibulum mi ut sollicitudin.</p>
-    
-    <p>Aliquam hendrerit efficitur arcu ut suscipit. Etiam vel lacus at enim malesuada vulputate a at nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc interdum mollis ultrices. In eget commodo justo, in vulputate eros. In et congue enim. Etiam eleifend dolor ac lectus faucibus aliquet. Vivamus luctus libero elit, id porttitor neque scelerisque id.</p>
-  </main>
-    </nav>
-  </header>
-
-  <!-- MAIN CONTENT -->
-  <main class="home-card">
-
-    <!-- ABOUT / BIO CARD -->
-    <section class="resource-card">
-      <div class="bio">
-        <div class="bio-pic">
-          <!-- Replace profile.jpg with your own image file -->
-          <img src="profile.jpg" alt="Your Photo" />
-        </div>
-
-        <div class="bio-text">
-          <h1>YOUR NAME</h1>
-          <h4>Student at YOUR SCHOOL</h4>
-          <p>
-            Paste your portfolio purpose statement from your Curator Guide here.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- QUICK LINKS CARD (optional) -->
-    <section class="resource-card">
-      <h2>Links</h2>
-      <p>Add your links from the Curator Guide.</p>
-
-      <div class="skill-images">
-        <!-- Old portfolio -->
-        <a href="PASTE-OLD-PORTFOLIO-LINK" target="_blank" rel="noopener">
-          <div class="picture">
-            <img class="link-pic" src="old_portfolio_icon.png" alt="Old Portfolio" />
-          </div>
-        </a>
-
-        <!-- Email -->
-        <a href="mailto:YOUR_EMAIL" target="_blank" rel="noopener">
-          <div class="picture">
-            <img class="link-pic" src="email_icon.png" alt="Email" />
-          </div>
-        </a>
-
-        <!-- LinkedIn (or other) -->
-        <a href="PASTE-LINKEDIN-OR-OTHER" target="_blank" rel="noopener">
-          <div class="picture">
-            <img class="link-pic" src="linkedin_icon.png" alt="LinkedIn" />
-          </div>
-        </a>
-      </div>
-    </section>
-
-    <!-- PROJECTS SECTION (repeatable blocks) -->
-    <section class="resource-card">
-      <h2>Featured Projects</h2>
-      <p>Each project includes an embed and a reflection from your Curator Guide.</p>
-    </section>
-
-    <!-- PROJECT 1 -->
-    <section class="resource-card">
-      <div class="project">
-        <iframe src="PASTE-PROJECT-LINK-1" title="Project 1"></iframe>
-
-        <div class="reflection">
-          <h3>Project Title 1</h3>
-          <p>
-            Paste your curated reflection for Project 1 here (3–5 sentences).
-          </p>
-          <p><strong>Skills:</strong> HTML, CSS, Flexbox (edit based on your guide)</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- PROJECT 2 -->
-    <section class="resource-card">
-      <div class="project">
-        <iframe src="PASTE-PROJECT-LINK-2" title="Project 2"></iframe>
-
-        <div class="reflection">
-          <h3>Project Title 2</h3>
-          <p>
-            Paste your curated reflection for Project 2 here (3–5 sentences).
-          </p>
-          <p><strong>Skills:</strong> (list skills here)</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Add more projects by copying PROJECT blocks -->
-
-  </main>
-
-  <!-- FOOTER -->
-  <footer class="resource-card">
-    <p>© <span id="year"></span> YOUR NAME | Junior Fall Portfolio</p>
-  </footer>
-body
-{
-  margin: 0;
-  padding: 0;
-  
-  /* make it look decent enough */
-  background: #232323;
-  color: #cdcdcd;
-  font-family: "Avenir Next", "Avenir", sans-serif;
-}
-
-main {
-  width: calc(100% - 240px);
-  max-width: 680px;
-  margin: 100px auto;
-}
-
-p {
-  font-size: 18px;
-  line-height: 28px;
-}
-
-* {
-  scroll-behavior: smooth;
-}
-
-/* Menu code starts here */
-
-#menuToggle
-{
-  display: block;
-  /* You can also use relative/absolute here if you want to stay on the top */
-  position: fixed;
-  top: 50px;
-  left: 50px;
-  
-  z-index: 1;
-  
-  -webkit-user-select: none;
-  user-select: none;
-}
-
-#menuToggle a
-{
-  text-decoration: none;
-  color: #232323;
-  
-  transition: color 0.3s ease;
-}
-
-#menuToggle a:hover
-{
-  color: tomato;
-}
-
-
-#menuToggle input
-{
-  display: block;
-  width: 40px;
-  height: 32px;
-  position: absolute;
-  top: -7px;
-  left: -5px;
-  
-  cursor: pointer;
-  
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
-  
-  -webkit-touch-callout: none;
-}
-
-/*
- * Just a quick hamburger
- */
-#menuToggle span
-{
-  display: block;
-  width: 33px;
-  height: 4px;
-  margin-bottom: 5px;
-  position: relative;
-  
-  background: #cdcdcd;
-  border-radius: 3px;
-  
-  z-index: 1;
-  
-  transform-origin: 4px 0px;
-  
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              opacity 0.55s ease;
-}
-
-#menuToggle span:first-child
-{
-  transform-origin: 0% 0%;
-}
-
-#menuToggle span:nth-last-child(2)
-{
-  transform-origin: 0% 100%;
-}
-
-/* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
-#menuToggle input:checked ~ span
-{
-  opacity: 1;
-  transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
-}
-
-/*
- * But let's hide the middle one.
- */
-#menuToggle input:checked ~ span:nth-last-child(3)
-{
-  opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
-}
-
-/*
- * Ohyeah and the last one should go the other direction
- */
-#menuToggle input:checked ~ span:nth-last-child(2)
-{
-  transform: rotate(-45deg) translate(0, -1px);
-}
-
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
-#menu
-{
-  position: absolute;
-  max-width: 400px;
-  width: 100vw;
-  max-height: 100vh;
-  margin: -100px 0 0 -50px;
-  padding: 50px;
-  padding-top: 125px;
-  box-sizing: border-box;
-  overflow-y: auto;
-  background: #ededed;
-  list-style-type: none;
-  -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
-  
-  transform-origin: 0% 0%;
-  transform: translate(-100%, 0);
-  
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-}
-
-#menu li
-{
-  padding: 10px 0;
-  font-size: 22px;
-}
-
-#menu li label
-{
-  cursor: pointer;
-}
-
-/*
- * And let's slide it in from the left
- */
-#menuToggle input:checked ~ ul
-{
-  transform: none;
-}  <script>
+  <script>
     // Auto-updates the year in the footer
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>

@@ -1,220 +1,57 @@
-/* =========================
-   GLOBAL / RESET....
-========================= */
-* {
-  box-sizing: border-box;
+/*Fonts*/
+
+/*<weight>: Use a value from 100 to 900 
+// <uniquifier>: Use a unique and descriptive class name */
+
+.league-spartan-<uniquifier> {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
-body {
-  margin: 0;
-  font-family: 'Montserrat', Arial, sans-serif;
-  background-color: #0b0c1a;
-  color: #f0f0f0;
-  background-image: url("starry_sun.jpg");
-  background-size: cover;
-  background-repeat: repeat-y;
-  background-attachment: fixed;
+.dm-serif-text-regular {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-/* =========================
-   NAVBAR
-========================= */
-.navbar {
-  background-color: #1b1d3a;
-  padding: 1em 2em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.dm-serif-text-regular-italic {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+/*/ <weight>: Use a value from 1 to 1000
+// <uniquifier>: Use a unique and descriptive class name */
+
+.google-sans-flex-<uniquifier> {
+  font-family: "Google Sans Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "ROND" 0;
 }
 
-.navbar-left img {
-  height: 35px;
-}
+/*Fonts*/
 
-.navbar-right {
-  list-style: none;
-  display: flex;
-  gap: 2em;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar-right a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.navbar-right a:hover {
-  color: #aaaaff;
-}
-
-/* =========================
-   PAGE LAYOUT
-========================= */
-.home-card {
-  max-width: 1200px;
-  margin: 2em auto;
-  padding: 1em;
-}
-
-/* =========================
-   CARDS
-========================= */
-.resource-card {
-  background-color: rgba(28, 31, 47, 0.95);
-  margin: 2em auto;
-  padding: 1.5em;
-  border-radius: 12px;
-  box-shadow: 0 0 12px rgba(255, 255, 255, 0.08);
-}
-
-/* =========================
-   BIO SECTION
-========================= */
-.bio {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.bio-pic img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 3px solid #5555aa;
-  object-fit: cover;
-}
-
-.bio-text h1 {
-  margin-bottom: 0.2em;
-}
-
-.bio-text h4 {
-  margin-top: 0;
-  font-weight: normal;
-  color: #ccccff;
-}
-
-/* =========================
-   PROJECT LAYOUT
-========================= */
-.project {
-  display: flex;
-  gap: 1.5em;
-  align-items: flex-start;
-}
-
-.project iframe {
-  flex: 2;
-  min-width: 320px;
-  height: 450px;
-  border: none;
-  background-color: white;
-  border-radius: 8px;
-}
-
-.reflection {
-  flex: 1;
-  background-color: rgba(255, 255, 255, 0.04);
-  padding: 1em;
-  border-radius: 8px;
-}
-
-.reflection h3 {
-  margin-top: 0;
-  color: #aaaaff;
-}
-
-.reflection p {
-  font-size: 0.95em;
-  color: #dddddd;
-}
-
-/* =========================
-   LINKS / ICONS
-========================= */
-.skill-images {
-  display: flex;
-  justify-content: center;
-  gap: 1.5em;
-  margin-top: 1em;
-}
-
-.picture {
-  transition: transform 0.2s ease;
-}
-
-.picture:hover {
-  transform: scale(1.05);
-}
-
-.link-pic {
-  height: 80px;
-  width: 80px;
-  border-radius: 10px;
-  border: 2px solid white;
-  object-fit: cover;
-}
-
-/* =========================
-   FOOTER
-========================= */
+/* FOOTER */
 footer {
   text-align: center;
   font-size: 0.85em;
   color: #cccccc;
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
-@media (max-width: 900px) {
-  .project {
-    flex-direction: column;
-  }
-
-  .project iframe {
-    width: 100%;
-    min-width: 0;
-    height: 350px;
-  }
-}
-
-@media (max-width: 600px) {
-  .navbar {
-    flex-direction: column;
-    gap: 1em;
-  }
-
-  .navbar-right {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-}
 body
 {
-  margin: 0;
-  padding: 0;
-  
   /* make it look decent enough */
   background: #232323;
   color: #cdcdcd;
   font-family: "Avenir Next", "Avenir", sans-serif;
 }
-
-main {
-  width: calc(100% - 240px);
-  max-width: 680px;
-  margin: 100px auto;
-}
-
-p {
-  font-size: 18px;
-  line-height: 28px;
-}
-
 * {
   scroll-behavior: smooth;
 }
@@ -224,17 +61,16 @@ p {
 #menuToggle
 {
   display: block;
-  /* You can also use relative/absolute here if you want to stay on the top */
   position: fixed;
   top: 50px;
   left: 50px;
-  
+  height: 100%;
   z-index: 1;
   
   -webkit-user-select: none;
   user-select: none;
 }
-
+/*regular link no hover color*/
 #menuToggle a
 {
   text-decoration: none;
@@ -242,7 +78,7 @@ p {
   
   transition: color 0.3s ease;
 }
-
+/*hover color*/
 #menuToggle a:hover
 {
   color: tomato;
@@ -266,9 +102,7 @@ p {
   -webkit-touch-callout: none;
 }
 
-/*
- * Just a quick hamburger
- */
+/*Keep everything under*/
 #menuToggle span
 {
   display: block;
@@ -299,44 +133,30 @@ p {
   transform-origin: 0% 100%;
 }
 
-/* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
 #menuToggle input:checked ~ span
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: #232323;
 }
-
-/*
- * But let's hide the middle one.
- */
 #menuToggle input:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
-
-/*
- * Ohyeah and the last one should go the other direction
- */
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
   transform: rotate(-45deg) translate(0, -1px);
 }
 
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
+/*keep everything under*/
 #menu
 {
   position: absolute;
-  max-width: 400px;
+  max-width: 350px;
+  height:100%;
   width: 100vw;
-  max-height: 100vh;
+  /*max-height: 100vh;*/
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
@@ -346,8 +166,7 @@ p {
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
-  
-  transform-origin: 0% 0%;
+   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
   
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
@@ -358,16 +177,8 @@ p {
   padding: 10px 0;
   font-size: 22px;
 }
-
-#menu li label
-{
-  cursor: pointer;
-}
-
-/*
- * And let's slide it in from the left
- */
 #menuToggle input:checked ~ ul
 {
   transform: none;
 }
+
