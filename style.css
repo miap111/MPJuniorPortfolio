@@ -197,4 +197,18 @@ body
 .indexphoto{
   border-radius: 100;
   border-style: dotted;
+  height:50%;
+  width:50%;
+}
+h1{
+  font-size: 120px;
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+}
+p{
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 48px;
 }
