@@ -200,10 +200,10 @@ body
   margin-right:70px;
 }
 .indexphoto{
-  height:17%;
-  width:17%;
-  float:right;
-  margin-right:30px;
+  height:16%;
+  width:16%;
+  /*float:right;*/
+  margin-right:80px;*/
   margin-top:40px;
 }
 img{
@@ -211,7 +211,7 @@ img{
   width:450px;
 }
 h1{
-  font-size: 120pt;
+  font-size: 110pt;
   font-family: "DM Serif Text", serif;
   font-weight: 400;
   line-height:35px;
