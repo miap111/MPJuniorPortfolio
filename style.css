@@ -185,7 +185,7 @@ body
   font-family: "DM Serif Text", serif;
   font-weight: 400;
   float: left;
-  margin-left: 350px;
+  margin-left: 250px;
 }
 .indexintro{
   font-family: "League Spartan", sans-serif;
@@ -195,14 +195,15 @@ body
   float:right;
   margin-right:20px;
   text-align:right;
+  margin-top: 100px;
 }
 .indexphoto{
   border-style: dotted;
-  height:350px;
+  height:450px;
   width:350px;
   float:right;
   margin-right:150px;
-  margin-top:70px;
+  margin-top:40px;
 }
 img{
   height:350px;
