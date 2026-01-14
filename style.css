@@ -185,14 +185,14 @@ body
 .indexhello{
   font-family: "DM Serif Text", serif;
   font-weight: 400;
-  position: left;
+  float: left;
 }
 .indexintro{
   font-family: "League Spartan", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
-  position: right;
+  float: right;
 }
 .indexphoto{
   border-radius: 100;
