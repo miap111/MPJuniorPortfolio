@@ -22,7 +22,6 @@ footer {
 #menuToggle
 {
   display: block;
-  /* You can also use relative/absolute here if you want to stay on the top */
   position: fixed;
   top: 50px;
   left: 50px;
@@ -39,11 +38,6 @@ footer {
   color: #232323;
   
   transition: color 0.3s ease;
-}
-
-#menuToggle a:hover
-{
-  color: tomato;
 }
 
 
@@ -64,11 +58,8 @@ footer {
   -webkit-touch-callout: none;
 }
 
-/*
- * Just a quick hamburger
- */
-#menuToggle span
-{
+/*hamburger menu*/
+#menuToggle span{
   display: block;
   width: 33px;
   height: 4px;
@@ -244,7 +235,30 @@ p {
 
 /*make sure 0 & 100% are the same color*/
 @keyframes rainbow {
-  0%   { color: #00FFFF; }20%  { color: #FFBF0A; }40%  { color: #78F57C; }60%  { color: #FF1493; }80%  { color: #9932CC; }100% { color: #00FFFF; }
+  0%   { 
+    color: #00FFFF;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3), 0 0 10px rgba(0, 255, 255, 0.6); 
+  }
+  20%  { 
+    color: #FFBF0A;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3), 0 0 10px rgba(255, 191, 10, 0.6); 
+  }
+  40%  { 
+    color: #78F57C;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3), 0 0 10px rgba(120, 245, 124, 0.6); 
+  }
+  60%  { 
+    color: #FF1493;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3), 0 0 10px rgba(255, 20, 147, 0.6); 
+  }
+  80%  { 
+    color: #9932CC; /* Purple */
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3), 0 0 10px rgba(153, 50, 204, 0.6); 
+  }
+  100% { 
+    color: #00FFFF; /* 0 & 100% has to be the same color to complete the wav */
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3), 0 0 10px rgba(0, 255, 255, 0.6); 
+  }
 }
 
 /* responsiveness so it works for all devices and browser sizes */
@@ -315,12 +329,7 @@ p {
   p {
     font-size: 1.2rem;
   }
-/*
-  .welcome {
-    padding-left: 0;
-    margin-left:clamp(0px, 10vw, 100px);
-  }
-    */
+
 }
 
   #menuToggle {
