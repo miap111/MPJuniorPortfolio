@@ -191,7 +191,8 @@ footer {
 .indexhello {
   font-family: "DM Serif Text", serif;
   float: left;
-  margin-left: 100px;
+  /*margin-left: 100px;*/
+  margin-left: clamp(10px, 10vw, 100px);
   margin-top: 100px;
 }
 
@@ -219,7 +220,7 @@ h1 {
 }
 
 .indexphoto img {
-  width: 100%;
+  /*width: 100%;*/
   height: auto;
   max-width: clamp(50px, 35vw, 420px);
 
@@ -283,10 +284,11 @@ p {
 
   .indexhello {
     margin-top: 120px;
-    float: none;
+    /*float: none;*/
     width: 100%;
-    margin: 0;
-    text-align: center;
+    /*margin-left: 100;*/
+    text-align: left;
+    margin-left: clamp(10px, 10vw, 100px);
   }
 
   .indexintro {
@@ -313,10 +315,12 @@ p {
   p {
     font-size: 1.2rem;
   }
-
+/*
   .welcome {
     padding-left: 0;
+    margin-left:clamp(0px, 10vw, 100px);
   }
+    */
 }
 
   #menuToggle {
@@ -334,5 +338,6 @@ p {
 
 .welcome {
   font-style: italic;
-  padding-left: 150px;
+  /*padding-left: 150px;*/
+  margin-left: clamp(10px, 10vw, 100px);
 }
