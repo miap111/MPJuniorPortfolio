@@ -135,7 +135,7 @@ h1 {
   font-weight: 200;
   float: right;
   text-align: right;
-  margin-left: 250px;
+  margin-left: 230px;
   margin-right: 70px;
 }
 
@@ -171,12 +171,28 @@ p {
 .welcome span:nth-child(8) { animation-delay: 0.7s; }
 
 @keyframes rainbow {
-  0%   { color: #00FFFF; }
-  14%  { color: #FFBF0A; }
-  28%  { color: #78F57C; }
-  42%  { color: #FF1493; }
-  57%  { color: #9932CC; }
-  71%  { color: #00FFFF; }
-  85%  { color: #FFBF0A; }
-  100% { color: #78F57C; }
+  0%   { 
+    color: #00FFFF;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3), 0 0 10px rgba(0, 255, 255, 0.6); 
+  }
+  20%  { 
+    color: #FFBF0A;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3), 0 0 10px rgba(255, 191, 10, 0.6); 
+  }
+  40%  { 
+    color: #78F57C;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3), 0 0 10px rgba(120, 245, 124, 0.6); 
+  }
+  60%  { 
+    color: #FF1493;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3), 0 0 10px rgba(255, 20, 147, 0.6); 
+  }
+  80%  { 
+    color: #9932CC; /* Purple */
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3), 0 0 10px rgba(153, 50, 204, 0.6); 
+  }
+  100% { 
+    color: #00FFFF; /* Back to Cyan to complete the circle */
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3), 0 0 10px rgba(0, 255, 255, 0.6); 
+  }
 }

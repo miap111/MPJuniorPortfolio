@@ -25,16 +25,6 @@ body {
 .miap span:nth-child(9) { animation-delay: 0.8s; }
 .miap span:nth-child(10) { animation-delay: 0.9s; }
 
-@keyframes rainbow {
-  0%   { color: #00FFFF; }
-  14%  { color: #FFBF0A; }
-  28%  { color: #78F57C; }
-  42%  { color: #FF1493; }
-  57%  { color: #9932CC; }
-  71%  { color: #00FFFF; }
-  85%  { color: #FFBF0A; }
-  100% { color: #78F57C; }
-}
 /* Hamburger menu */
 #menuToggle {
   display: block;
@@ -151,4 +141,150 @@ h1 {
 .miaphoto img {
   width: 100%;
   height: auto;
+}
+figcaption {
+  padding-top: 20px;
+  text-align: center;
+  font-size: clamp(24px, 2vw, 32px);
+  font-family: "League Spartan", sans-serif;
+  font-weight: 100;
+}
+.bio1 {
+  /* blend background into pink to purp */
+  background: linear-gradient(to bottom, #232323 0%, #F48FB1 25%, #F48FB1 40%, #E197D4 75%, #B39DDB 100%);
+  text-align: center;
+  font-family: "League Spartan", sans-serif;
+  font-size: clamp(18px, 2vw, 24px);
+  color: #232323;
+  line-height: 1.6;
+  padding: 120px 30px 1px 30px; /* top padding for blend */
+  margin:0px;
+  display:block;
+}
+
+.bio2 {
+    /*purp to cyan*/
+  background: linear-gradient(to bottom, #B39DDB 0%, #A3B9F0 40%, #89D9E6 80%, #80DEEA 100%);
+  text-align: center;
+  font-family: "League Spartan", sans-serif;
+  font-size: clamp(18px, 2vw, 24px);
+  color: #232323;
+  line-height: 1.6;
+  padding: 1px 30px;
+  margin:0px;
+  display:block;
+}
+
+.fact1 {
+    /*cyan to green*/
+  background: linear-gradient(to bottom, #80DEEA 0%, #A5D6A7 50%, #C5E1A5 100%);
+  text-align: center;
+  font-family: "League Spartan", sans-serif;
+  font-size: clamp(18px, 2vw, 24px);
+  color: #232323;
+  line-height: 1.6;
+  padding: 1px 30px;
+  margin:0px;
+  display:block;
+}
+
+.fact2 {
+  background-color: #C5E1A5;
+  text-align: center;
+  font-family: "League Spartan", sans-serif;
+  font-size: clamp(18px, 2vw, 24px);
+  color: #232323;
+  line-height: 1.6;
+  padding: 1px 30px;
+  margin:0px;
+  display:block;
+}
+
+a:link {
+  color: #78F57C;
+}
+
+/* visited link */
+a:visited {
+  color: #232323;
+  text-decoration: solid;
+}
+
+a:hover {
+  color: #FF1491;
+  text-decoration: none;
+}
+.mybio span {
+  display: inline-block;
+  animation: rainbow 3s linear infinite;
+}
+
+.mybio span:nth-child(1) { animation-delay: 0s; }
+.mybio span:nth-child(2) { animation-delay: 0.1s; }
+.mybio span:nth-child(3) { animation-delay: 0.2s; }
+.mybio span:nth-child(4) { animation-delay: 0.3s; }
+.mybio span:nth-child(5) { animation-delay: 0.4s; }
+.mybio span:nth-child(6) { animation-delay: 0.5s; }
+.mybio span:nth-child(7) { animation-delay: 0.6s; }
+
+.funfactt1 span {
+  display: inline-block;
+  animation: rainbow 3s linear infinite;
+}
+
+.funfactt1 span:nth-child(1) { animation-delay: 0s; }
+.funfactt1 span:nth-child(2) { animation-delay: 0.1s; }
+.funfactt1 span:nth-child(3) { animation-delay: 0.2s; }
+.funfactt1 span:nth-child(4) { animation-delay: 0.3s; }
+.funfactt1 span:nth-child(5) { animation-delay: 0.4s; }
+.funfactt1 span:nth-child(6) { animation-delay: 0.5s; }
+.funfactt1 span:nth-child(7) { animation-delay: 0.6s; }
+.funfactt1 span:nth-child(8) { animation-delay: 0.7s; }
+.funfactt1 span:nth-child(9) { animation-delay: 0.8s; }
+.funfactt1 span:nth-child(10) { animation-delay: 0.9s; }
+
+.funfactt2 span {
+  display: inline-block;
+  animation: rainbow 3s linear infinite;
+  /*rgba includes semi transparent*/
+}
+
+.funfactt2 span:nth-child(1) { animation-delay: 0s; }
+.funfactt2 span:nth-child(2) { animation-delay: 0.1s; }
+.funfactt2 span:nth-child(3) { animation-delay: 0.2s; }
+.funfactt2 span:nth-child(4) { animation-delay: 0.3s; }
+.funfactt2 span:nth-child(5) { animation-delay: 0.4s; }
+.funfactt2 span:nth-child(6) { animation-delay: 0.5s; }
+.funfactt2 span:nth-child(7) { animation-delay: 0.6s; }
+.funfactt2 span:nth-child(8) { animation-delay: 0.7s; }
+.funfactt2 span:nth-child(9) { animation-delay: 0.8s; }
+.funfactt2 span:nth-child(10) { animation-delay: 0.9s; }
+
+/*horizontal offset left and right, vertical offset up and down, blur solid vs translucent*/
+/*rainbow keyframes will work for all spans*/
+@keyframes rainbow {
+  0%   { 
+    color: #00FFFF;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3), 0 0 10px rgba(0, 255, 255, 0.6); 
+  }
+  20%  { 
+    color: #FFBF0A;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3), 0 0 10px rgba(255, 191, 10, 0.6); 
+  }
+  40%  { 
+    color: #78F57C;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3), 0 0 10px rgba(120, 245, 124, 0.6); 
+  }
+  60%  { 
+    color: #FF1493;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3), 0 0 10px rgba(255, 20, 147, 0.6); 
+  }
+  80%  { 
+    color: #9932CC; /* Purple */
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3), 0 0 10px rgba(153, 50, 204, 0.6); 
+  }
+  100% { 
+    color: #00FFFF; /* Back to Cyan to complete the circle */
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3), 0 0 10px rgba(0, 255, 255, 0.6); 
+  }
 }
