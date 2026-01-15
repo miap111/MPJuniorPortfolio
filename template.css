@@ -16,6 +16,11 @@ footer {
   clear: both;
 }
 
+p {
+  font-family: "League Spartan", sans-serif;
+  font-size: 3rem;
+}
+
 /* Hamburger menu */
 #menuToggle {
   display: block;
@@ -112,71 +117,4 @@ footer {
 #menu a:hover {
   color: #FF1493;
 }
-
-/* --- Layout Fixes --- */
-.indexhello {
-  font-family: "DM Serif Text", serif;
-  float: left;
-  margin-left: 100px;
-  margin-top: 100px; /* This moves the "Hello" down from the top */
-}
-
-h1 {
-  font-family: "DM Serif Text", serif;
-  font-weight: 400; 
-  font-size: 110pt;
-  line-height: 1.2; /* Reset to normal so Hello drops down */
-  margin: 0;
-  padding: 0;
-}
-
-.indexintro {
-  font-family: "League Spartan", sans-serif;
-  font-weight: 200;
-  float: right;
-  text-align: right;
-  margin-left: 250px;
-  margin-right: 70px;
-}
-
-.indexphoto {
-  max-width: 35%;
-  float: right;
-  margin-top: 40px;
-}
-
-.indexphoto img {
-  width: 100%;
-  height: auto;
-}
-
-p {
-  font-family: "League Spartan", sans-serif;
-  font-size: 3rem;
-}
-
-/* --- Animated Welcome --- */
-.welcome span {
-  display: inline-block;
-  animation: rainbow 3s linear infinite;
-}
-
-.welcome span:nth-child(1) { animation-delay: 0s; }
-.welcome span:nth-child(2) { animation-delay: 0.1s; }
-.welcome span:nth-child(3) { animation-delay: 0.2s; }
-.welcome span:nth-child(4) { animation-delay: 0.3s; }
-.welcome span:nth-child(5) { animation-delay: 0.4s; }
-.welcome span:nth-child(6) { animation-delay: 0.5s; }
-.welcome span:nth-child(7) { animation-delay: 0.6s; }
-.welcome span:nth-child(8) { animation-delay: 0.7s; }
-
-@keyframes rainbow {
-  0%   { color: #00FFFF; }
-  14%  { color: #FFBF0A; }
-  28%  { color: #78F57C; }
-  42%  { color: #FF1493; }
-  57%  { color: #9932CC; }
-  71%  { color: #00FFFF; }
-  85%  { color: #FFBF0A; }
-  100% { color: #78F57C; }
-}
+/* end of hamburger menu*/
