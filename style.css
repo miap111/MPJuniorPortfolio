@@ -222,6 +222,31 @@ p{
   font-style: normal;
   font-size: 3rem;
 }
-.welcome{
-  /*margin-left:150px;*/
+  .welcome {
+  font-style: italic;
+  padding-left: 150px;
+}
+
+.welcome span {
+  display: inline-block;
+  animation: rainbow 3s linear infinite;
+}
+.welcome span:nth-child(1) { animation-delay: 0s; }
+.welcome span:nth-child(2) { animation-delay: 0.1s; }
+.welcome span:nth-child(3) { animation-delay: 0.2s; }
+.welcome span:nth-child(4) { animation-delay: 0.3s; }
+.welcome span:nth-child(5) { animation-delay: 0.4s; }
+.welcome span:nth-child(6) { animation-delay: 0.5s; }
+.welcome span:nth-child(7) { animation-delay: 0.6s; }
+.welcome span:nth-child(8) { animation-delay: 0.7s; }
+
+@keyframes rainbow {
+  0%   { color: #00FFFF; }
+  14%  { color: #FFBF0A; }
+  28%  { color: #78F57C; }
+  42%  { color: #FF1493; }
+  57%  { color: #9932CC; }
+  71%  { color: #00FFFF; }
+  85%  { color: #FFBF0A; }
+  100% { color: #78F57C; }
 }
