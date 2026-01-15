@@ -186,7 +186,7 @@ body
   font-weight: 400;
   float: left;
   margin-left: 100px;
-  margin-top:60px;
+  margin-top:40px;
 }
 .indexintro{
   font-family: "League Spartan", sans-serif;
@@ -195,7 +195,7 @@ body
   font-style: normal;
   float:right;
   text-align:right;
-  margin-top:50px;
+  margin-top:30px;
   margin-left:250px;
   margin-right:70px;
 }
