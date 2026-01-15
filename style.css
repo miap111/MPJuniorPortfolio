@@ -122,9 +122,9 @@ footer {
 }
 
 h1 {
-  font-family: "DM Serif Text", serif;
-  font-weight: 400; 
-  font-size: 110pt;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 600; 
+  font-size:clamp(32px, 12vw, 110pt); /*adjusts size according to screen*/
   line-height: 1.2; /* Reset to normal so Hello drops down */
   margin: 0;
   padding: 0;
@@ -152,7 +152,7 @@ h1 {
 
 p {
   font-family: "League Spartan", sans-serif;
-  font-size: 3rem;
+  font-size: 1.2rem;
 }
 
 /* --- Animated Welcome --- */
