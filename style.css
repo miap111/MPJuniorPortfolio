@@ -202,8 +202,7 @@ body
 .indexphoto{
   height:16%;
   width:16%;
-  /*float:right;*/
-  margin-right:80px;*/
+  float:right;
   margin-top:40px;
 }
 img{
