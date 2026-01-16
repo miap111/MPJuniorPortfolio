@@ -172,8 +172,6 @@ p {
     font-size: 1.2rem;
   }
 
-}
-
   #menuToggle {
     top: 20px;
     left: 20px;
@@ -186,7 +184,7 @@ p {
 #menuToggle input:checked ~ span {
   background: #111;
 }
-
+}
 .welcome {
   font-style: italic;
   /*padding-left: 150px;*/
