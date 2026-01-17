@@ -24,7 +24,7 @@ body {
 .miap span:nth-child(8) { animation-delay: 0.7s; }
 .miap span:nth-child(9) { animation-delay: 0.8s; }
 .miap span:nth-child(10) { animation-delay: 0.9s; }
-
+.miap span:nth-child(11) { animation-delay: 1.0s; }
 
 h1 {
   /* use clamp which is like range func : clamp(MIN, SCALING, MAX) */
