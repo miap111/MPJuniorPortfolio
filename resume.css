@@ -1,0 +1,12 @@
+.home-card {
+  max-width: 1200px;
+  margin: 2em auto;
+  padding: 1em;
+}
+.resource-card {
+  background-color: rgba(28, 31, 47, 0.95);
+  margin: 2em auto;
+  padding: 1.5em;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.08);
+}
