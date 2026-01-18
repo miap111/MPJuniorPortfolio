@@ -69,7 +69,7 @@ body {
   position: fixed;
   inset: 0;
   width: 300px;
-  height: auto;
+  height: 100dvh;
   min-height: -webkit-fill-available;
   top: 0;
   bottom: 0;
